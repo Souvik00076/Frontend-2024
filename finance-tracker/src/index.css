@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-shadow {
+  box-shadow: -1px 2px 10px #9bcfeb;
+}
+.modal-shadow {
+  box-shadow: 0px 0px 20px;
+}

@@ -1,0 +1,7 @@
+import { FC } from "react";
+
+export const GenericCard: FC = () => {
+  return <div className="w-[400px] bg-gray-100 h-[200px]">
+
+  </div>
+}
