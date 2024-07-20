@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import { DashboardNav } from "../components";
 import { DashboardCardWrapper } from "../components/dashboard-components";
+import { DashboardTransactionWrapper } from "../components/dashboard-components/DashboardTransactionWrapper";
 
 
 export const DashboardContainer: FC = () => {
@@ -24,9 +25,9 @@ export const DashboardContainer: FC = () => {
         totalIncome={totalIncome}
         loading={loading}
       />
-      <div className="my-8 flex justify-evenly">
-
-      </div>
+      <DashboardTransactionWrapper
+        setSearch={(arg: string) => setSearch(arg)}
+      />
     </>
   );
 };

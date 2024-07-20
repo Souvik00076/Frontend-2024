@@ -17,7 +17,7 @@ export const TextInput: FC<TTextInputProps> = ({
       type="text"
       placeholder={placeHolder ? placeHolder : "Type Here"}
       className={mergeStyles(
-        "input input-bordered w-full max-w-xs",
+        "input input-bordered w-full",
         style ? style : "",
       )}
     />
