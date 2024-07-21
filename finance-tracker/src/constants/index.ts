@@ -1,2 +1,3 @@
 import { routes } from "./routes";
-export { routes };
+import { DASHBOARD_TABLE_HEADERS } from "./variables";
+export { routes, DASHBOARD_TABLE_HEADERS };

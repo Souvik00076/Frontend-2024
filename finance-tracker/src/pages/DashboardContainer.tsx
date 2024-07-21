@@ -17,7 +17,7 @@ export const DashboardContainer: FC = () => {
   }, [search]);
 
   return (
-    <>
+    <div className="overflow-hidden">
       <DashboardNav />
       <DashboardCardWrapper
         currentBalance={currentBalance}
@@ -28,6 +28,6 @@ export const DashboardContainer: FC = () => {
       <DashboardTransactionWrapper
         setSearch={(arg: string) => setSearch(arg)}
       />
-    </>
+    </div>
   );
 };
